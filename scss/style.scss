@@ -1,0 +1,14 @@
+@import "fonts";
+@import "nullstyle";
+@import "header";
+@import "main";
+@import "footer";
+
+body {
+	font-family: Rubik;
+	color: #616161;
+	&._lock {
+		overflow: hidden;
+	}
+}
+

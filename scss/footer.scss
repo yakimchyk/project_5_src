@@ -1,0 +1,25 @@
+.footer {
+   margin: 0px 0px 47px 0px;
+   @media (max-width: 767px) {
+      margin: 0px 0px 17px 0px;
+   }
+   // .footer__container
+   &__container {
+   }
+   // .footer__row
+   &__row {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      grid-gap: 60px;
+      @media (max-width: 767px) {
+         grid-gap: 10px;
+      }
+   }
+   // .footer__item
+   &__item {
+      img {
+         max-width: 100%;
+      }
+   }
+}
